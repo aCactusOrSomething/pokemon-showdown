@@ -3550,7 +3550,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	rufflet: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "LC",
+		natDexTier: "NFE",
 	},
 	braviary: {
 		isNonstandard: "Past",
