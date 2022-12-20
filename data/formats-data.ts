@@ -1854,11 +1854,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "UU",
 	},
 	wingull: {
-		tier: "LC",
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
 	},
 	pelipper: {
-		tier: "OU",
-		doublesTier: "DUU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 		natDexTier: "UU",
 	},
 	ralts: {
@@ -6085,14 +6087,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	/********
 	 * EYRE *
 	 ********/
-
-	pidoveeyre:{
-		tier: "LC",
+	absolfossil: {
+		tier: "OU",
 	},
-	tranquilleyre:{
-		tier: "NFE",
-	},
-	unfezanteyre:{
+	absolfossilmega: {
 		tier: "OU",
 	},
 	turtato: {
@@ -6102,6 +6100,33 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	tortratai: {
+		tier: "OU",
+	},
+	chimceann: {
+		tier: "LC",
+	},
+	monfearno: {
+		tier: "NFE",
+	},
+	dullahape: {
+		tier: "OU",
+	},
+	pipluff: {
+		tier: "LC",
+	},
+	prinpluff: {
+		tier: "NFE",
+	},
+	empuffin: {
+		tier: "OU",
+	},
+	pidoveeyre:{
+		tier: "LC",
+	},
+	tranquilleyre:{
+		tier: "NFE",
+	},
+	unfezanteyre:{
 		tier: "OU",
 	},
 	klingeyre: {
