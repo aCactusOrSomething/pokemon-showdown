@@ -1479,7 +1479,7 @@ export class Battle {
 					}
 				}
 
-				if (this.gen >= 7) {
+				if (this.gen >= 7 && !pokemon.terastallized) {
 					// In Gen 7, the real type of every Pokemon is visible to all players via the bottom screen while making choices
 					const seenPokemon = pokemon.illusion || pokemon;
 					const realTypeString = seenPokemon.getTypes(true).join('/');
@@ -2570,6 +2570,24 @@ export class Battle {
 					break;
 				}
 			}
+			break;
+		case 'revivalblessing':
+			action.pokemon.side.pokemonLeft++;
+			if (action.target.position < action.pokemon.side.active.length) {
+				this.queue.addChoice({
+					choice: 'instaswitch',
+					pokemon: action.target,
+					target: action.target,
+				});
+			}
+			action.target.fainted = false;
+			action.target.faintQueued = false;
+			action.target.subFainted = false;
+			action.target.status = '';
+			action.target.hp = 1; // Needed so hp functions works
+			action.target.sethp(action.target.maxhp / 2);
+			this.add('-heal', action.target, action.target.getHealth, '[from] move: Revival Blessing');
+			action.pokemon.side.removeSlotCondition(action.pokemon, 'revivalblessing');
 			break;
 		case 'runUnnerve':
 			this.singleEvent('PreStart', action.pokemon.getAbility(), action.pokemon.abilityState, action.pokemon);

@@ -1,8 +1,7 @@
 'use strict';
 
-require('ts-node').register({project: './tsconfig.json', files: true, transpileOnly: true, transpiler: 'ts-node/transpilers/swc-experimental'});
-const {Teams} = require('../.sim-dist');
-const {Dex} = require('../.sim-dist/dex');
+const {Teams} = require('../sim');
+const {Dex} = require('../sim/dex');
 
 
 if (!process.argv[2]) {
