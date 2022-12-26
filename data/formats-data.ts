@@ -6136,7 +6136,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	kliftoff: {
-		tier: "OU"
+		tier: "OU",
+	},
+	kingambitmega: {
+		tier: "OU",
+	},
+	dhelmisemega: {
+		tier: "OU",
 	},
 
 };

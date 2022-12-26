@@ -7402,8 +7402,33 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: -60,
+		num: -63,
 		gen: 6,
-		isNonstandard: "Past",
+	},
+	kingambith: {
+		name: "Kingambith",
+		spritenum: 576,
+		megaStone: "Kingambit-Mega",
+		megaEvolves: "Kingambit",
+		itemUser: ["Kingambit"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -64,
+		gen: 6,
+	},
+	dhelmith: {
+		name: "Dhelmith",
+		spritenum: 576,
+		megaStone: "Dhelmise-Mega",
+		megaEvolves: "Dhelmise",
+		itemUser: ["Dhelmise"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -65,
+		gen: 6,
 	},
 };
