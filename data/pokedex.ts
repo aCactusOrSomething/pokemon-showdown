@@ -9425,8 +9425,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		evos: ["Tranquill"],
 		eggGroups: ["Flying"],
-		otherFormes: ["Pidove-Eyre"],
-		formeOrder: ["Pidove", "Pidove-Eyre"],
+		//otherFormes: ["Pidove-Eyre"],
+		//formeOrder: ["Pidove", "Pidove-Eyre"],
 	},
 	tranquill: {
 		num: 520,
@@ -9441,8 +9441,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 21,
 		evos: ["Unfezant"],
 		eggGroups: ["Flying"],
-		otherFormes: ["Tranquill-Eyre"],
-		formeOrder: ["Tranquill", "Tranquill-Eyre"],
+		//otherFormes: ["Tranquill-Eyre"],
+		//formeOrder: ["Tranquill", "Tranquill-Eyre"],
 	},
 	unfezant: {
 		num: 521,
@@ -9456,8 +9456,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Tranquill",
 		evoLevel: 32,
 		eggGroups: ["Flying"],
-		otherFormes: ["Unfezant-Eyre"],
-		formeOrder: ["Unfezant", "Unfezant-Eyre"],
+		//otherFormes: ["Unfezant-Eyre"],
+		//formeOrder: ["Unfezant", "Unfezant-Eyre"],
 	},
 	blitzle: {
 		num: 522,
@@ -10660,8 +10660,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		evos: ["Klang"],
 		eggGroups: ["Mineral"],
-		otherFormes: ["Klink-Eyre"],
-		formeOrder: ["Klink", "Klink-Eyre"],
+		//otherFormes: ["Klink-Eyre"],
+		//formeOrder: ["Klink", "Klink-Eyre"],
 	},
 	klang: {
 		num: 600,
@@ -10677,8 +10677,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 38,
 		evos: ["Klinklang"],
 		eggGroups: ["Mineral"],
-		otherFormes: ["Klang-Eyre"],
-		formeOrder: ["Klang", "Klang-Eyre"],
+		//otherFormes: ["Klang-Eyre"],
+		//formeOrder: ["Klang", "Klang-Eyre"],
 	},
 	klinklang: {
 		num: 601,
@@ -19265,7 +19265,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Field"],
 		requiredItem: "Absolith",
-	},*/
+	},
 	turtato: {
 		num: -6387,
 		name: "Turtato",
@@ -19482,7 +19482,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Klang-Eyre",
 		evoLevel: 49,
 		eggGroups: ["Mineral"],
-	},/*
+	},
 	dhelmisemega: {
 		num: 781,
 		name: "Dhelmise-Mega",
