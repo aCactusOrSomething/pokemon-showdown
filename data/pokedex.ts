@@ -19243,7 +19243,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: -6359,
 		name: "Absol-Fossil",
 		//baseSpecies: "Absol",
-		forme: "Fossil",
+		//forme: "Fossil",
 		types: ["Rock", "Dark"],
 		baseStats: {hp: 65, atk: 130, def: 75, spa: 60, spd: 60, spe: 75},
 		abilities: {0: "Pressure", 1: "Anticipation", H: "Rattled"},
@@ -19485,8 +19485,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	dhelmisemega: {
 		num: 781,
-		name: "Dhelmise Mega",
-		baseSpecies: "Kingambit",
+		name: "Dhelmise-Mega",
+		baseSpecies: "Dhelmise",
 		forme: "Mega",
 		types: ["Ghost", "Grass"],
 		gender: "N",
@@ -19500,7 +19500,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	kingambitmega: {
 		num: 983,
-		name: "Kingambit Mega",
+		name: "Kingambit-Mega",
 		baseSpecies: "Kingambit",
 		forme: "Mega",
 		types: ["Dark", "Steel"],

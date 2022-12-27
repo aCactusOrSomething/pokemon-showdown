@@ -6138,10 +6138,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kliftoff: {
 		tier: "OU",
 	},
-	kingambitmega: {
+	dhelmisemega: {
 		tier: "OU",
 	},
-	dhelmisemega: {
+	kingambitmega: {
 		tier: "OU",
 	},
 
