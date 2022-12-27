@@ -7443,7 +7443,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	/********
 	 * EYRE *
 	 ********/
-	absolith: {
+	/*absolith: {
 		name: "Absolith",
 		spritenum: 576,
 		megaStone: "Absol-Fossil-Mega",
@@ -7481,5 +7481,5 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: -65,
 		gen: 6,
-	},
+	},*/
 };

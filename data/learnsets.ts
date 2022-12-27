@@ -93895,7 +93895,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	/********
 	 * EYRE *
 	 ********/
-	absolfossil: {
+	/*absolfossil: {
 		learnset: {
 			aerialace: ["9M"],
 			assurance: ["9M"],
@@ -93981,7 +93981,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dualwingbeat: ["9L1"],
 			smackdown: ["9L1"],
 		},
-	},
+	},*/
 	turtato: {
 		learnset: {
 			absorb: ["9L9"],

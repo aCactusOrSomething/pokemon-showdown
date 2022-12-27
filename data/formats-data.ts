@@ -6087,12 +6087,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	/********
 	 * EYRE *
 	 ********/
-	absolfossil: {
+	/*absolfossil: {
 		tier: "OU",
 	},
 	absolfossilmega: {
 		tier: "OU",
-	},
+	},*/
 	turtato: {
 		tier: "LC",
 	},
@@ -6137,12 +6137,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	kliftoff: {
 		tier: "OU",
-	},
+	},/*
 	dhelmisemega: {
 		tier: "OU",
 	},
 	kingambitmega: {
 		tier: "OU",
-	},
+	},*/
 
 };

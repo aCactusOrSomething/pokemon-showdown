@@ -19239,11 +19239,11 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	/********
 	 * EYRE *
 	 ********/
-	absolfossil: {
+	/*absolfossil: {
 		num: -6359,
 		name: "Absol-Fossil",
-		//baseSpecies: "Absol",
-		//forme: "Fossil",
+		baseSpecies: "Absol",
+		forme: "Fossil",
 		types: ["Rock", "Dark"],
 		baseStats: {hp: 65, atk: 130, def: 75, spa: 60, spd: 60, spe: 75},
 		abilities: {0: "Pressure", 1: "Anticipation", H: "Rattled"},
@@ -19265,7 +19265,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Field"],
 		requiredItem: "Absolith",
-	},
+	},*/
 	turtato: {
 		num: -6387,
 		name: "Turtato",
@@ -19474,7 +19474,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Kliftoff",
 		types: ["Grass", "Flying"],
 		gender: "N",
-		baseStats: {hp: 70, atk: 130, def: 55, spa: 100, spd: 55, spe: 110},
+		baseStats: {hp: 70, atk: 130, def: 55, spa: 100, spd: 55000, spe: 110},
 		abilities: {0: "Weak Armor", 1: "Unburden", H: "Wind Rider"},
 		heightm: 0.6,
 		weightkg: 81,
@@ -19482,7 +19482,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Klang-Eyre",
 		evoLevel: 49,
 		eggGroups: ["Mineral"],
-	},
+	},/*
 	dhelmisemega: {
 		num: 781,
 		name: "Dhelmise-Mega",
@@ -19511,5 +19511,5 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Kingambith",
-	},
+	},*/
 };
