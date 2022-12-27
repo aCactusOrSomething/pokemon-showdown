@@ -6092,7 +6092,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	absolfossilmega: {
 		tier: "OU",
-	},*/
+	},
 	turtato: {
 		tier: "LC",
 	},
@@ -6137,7 +6137,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	kliftoff: {
 		tier: "OU",
-	},/*
+	},
 	dhelmisemega: {
 		tier: "OU",
 	},

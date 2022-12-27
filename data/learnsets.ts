@@ -93981,7 +93981,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dualwingbeat: ["9L1"],
 			smackdown: ["9L1"],
 		},
-	},*/
+	},0
 	turtato: {
 		learnset: {
 			absorb: ["9L9"],
@@ -94986,5 +94986,5 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bravebird: ["9L60"],
 			hurricane: ["9L64"],
 		},
-	},
+	},*/
 };
